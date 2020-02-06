@@ -1,4 +1,4 @@
-### 1.Cài đặt webpack bằng npm
+### 1. Cài đặt webpack bằng npm
 __Bước 1:__ Trong thư mục gốc của theme, khởi tạo npm bằng câu lệnh sau trong Terminal:  
 `$ npm init -f`  
 - Thêm __-f__ trong câu lệnh trên để tạo nhanh file, bỏ qua các bước hướng dẫn. Lúc này, chúng ta sẽ thấy file package.json đã được tạo trong folder theme. 
@@ -53,13 +53,13 @@ __Bước 3:__ Điều chỉnh file `webpack.config.js` trong thư mục gốc c
 - Tệp đính kèm trong source
 
 ### 3. Cài đặt packages hỗ trợ  
-####1. Cài đặt Webpack auto-compile
-####2. Cài đặt Error Notification
+#### 1. Cài đặt Webpack auto-compile
+#### 2. Cài đặt Error Notification
 Với webpack, postcss-loader sẽ giúp chung ta tự động thêm các tiền tố đó:  
 
 `$ npm i -D postcss-loader`  
 
-####3. Cài đặt Autoprefixer
+#### 3. Cài đặt Autoprefixer
   
 ----------
 __Chạy npm để webpack thực thi và đóng gói các file bằng câu lệnh sau trong Terminal:__  
